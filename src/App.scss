@@ -1,0 +1,14 @@
+@import "./styles/variables.scss";
+@import "./styles/colors.scss";
+
+.App,
+.ant-layout {
+  min-height: inherit;
+}
+header.ant-layout-header {
+  height: 74px;
+}
+
+main.ant-layout-content {
+  background-color: $primaryLightColor;
+}
